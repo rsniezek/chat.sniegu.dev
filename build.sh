@@ -12,4 +12,6 @@ mv element-$ELEMENT_VERSION out
 cp config/* out/
 cp 404.html out/
 
+rm element.tar.gz
+
 # ./out is now ready.
