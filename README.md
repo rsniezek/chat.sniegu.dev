@@ -1,6 +1,6 @@
-# element.awau.uk
+# chat.sniegu.dev
 
-This project demonstrates how to host [element-web](https://github.com/vector-im/element-web) on [Cloudflare Pages](https://pages.cloudflare.com/).
+This project deploys element-web at chat.sniegu.dev
 
 ## Usage
 

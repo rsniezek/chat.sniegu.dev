@@ -2,10 +2,10 @@
 set -x
 
 # configure here
-ELEMENT_VERSION=v1.12.15
+ELEMENT_VERSION=v1.12.17
 # end configure here
 
-curl -L -o element.tar.gz https://github.com/element-hq/element-web/releases/download/$ELEMENT_VERSION/element-$ELEMENT_VERSION.tar.gz
+curl -fL -o element.tar.gz https://github.com/element-hq/element-web/releases/download/$ELEMENT_VERSION/element-$ELEMENT_VERSION.tar.gz
 
 tar -xvf element.tar.gz
 mv element-$ELEMENT_VERSION out
